@@ -1,0 +1,164 @@
+body{
+	font-size: 12px;
+	width: 100%;
+	min-width: 320px;
+}
+.container{
+	width: 100%;
+	padding:0;
+	margin:0;
+	background-color: #f0efed;
+}
+.header{
+	background-color: #fff;
+	border-bottom: solid 10px #ffcc99;
+}
+.topbar{
+	background-color: #ff3333;
+	text-align: center;
+}
+.topbar a:hover{
+	text-decoration-line: none;
+	color: #fff;
+}
+.topbar a:link{
+	text-decoration-line:none;
+	color: #fff;
+}
+.topbar a{
+	color: #fff;
+}
+
+.header .col-xs-1{
+	line-height: 50px;
+}
+
+.search{
+	margin-top: 8px;
+	padding: 2px;
+	border-radius: 8px;
+	background-color: #fff;
+	text-align: left;
+}
+.search input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#999;
+}
+.search input::-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#999;
+}
+.search input::-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#999;
+}
+.search input::-webkit-input-placeholder{
+    color:#999;
+}
+.search input{
+	outline: none;
+}
+.searchIput{
+	height: 30px;
+	border: 0;
+	background-color: #fff;
+}
+.citymore{
+	line-height: 50px;
+	font-size: 14px;
+}
+.nav {
+	margin-left: 1%;
+}
+.nav .col-xs-3{
+	margin:10px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.like{
+	border-bottom: solid 3px #ffcc99; 
+	font-size: 18px;
+	line-height: 50px;
+}
+.maincontent{
+	padding: 10px;
+	height: 600px;
+	background-color: #fff;
+}
+.maincontent .col-xs-12,.col-xs-3,.col-xs-4,.col-xs-8{
+	padding: 0;
+}
+.maincontent .store{
+	font-size: 12px;
+	padding: 5px 0;
+	margin: 5px 0;
+}
+.maincontent .store{
+	border-bottom: solid 1px #ccc;
+}
+.maincontent .col-xs-4{
+	padding-left: 5px;
+}
+.storeinfo{
+	padding-left: 35px;
+}
+.author{
+	font-size: 14px;
+	color: #999;
+}
+.storetitle{
+	font-size: 20px;
+	line-height: 50px;
+}
+.storeprice{
+	margin-top: 15px;
+}
+.nowprice{
+	color: #08c0b6;
+	font-size: 16px;
+}
+.storemore{
+	color: #08c0b6;
+	background-color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+}
+.storemore a,.storemore a:hover{
+	color: #08c0b6;
+	text-decoration: none;
+}
+.storemore .col-xs-10{
+	padding: 0;
+}
+.footer{
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+.login .button{
+	height:25px;
+	width: 15%;
+	font-size: 15px;
+	border: 1px #08c0b6 solid;
+	color: #08c0b6;
+	border-radius: 4px;
+	padding: 0;
+	margin: 20px 0 20px 15px;
+	background-color: #f0efed;
+}
+.login .button:nth-of-type(1),.login .button:nth-of-type(2){
+	float: left;
+}
+.footnav li,.footnav2 li{
+	line-height: 20px;
+	margin-top: 8px;
+}
+.footnav li:not(:last-of-type){
+	border-right: 1px #999 solid;
+}
+.footer a,.footer a:hover{
+	color: #08c0b6;
+}
+.footer hr{
+	border-color: #ccc;
+	margin:8px 0 0 0 ;
+}
